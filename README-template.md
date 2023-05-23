@@ -48,37 +48,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Live Site URL Using Github Pages](https://amraboelmagdhussien.github.io/results-summary-component-main/)
 
 ## My process
-I used HTML to create 1 Big box then divided this boxes into two then 
+I used HTML to create 1 Big box then divided this boxes into two then then I started with the right box by divinding all its content into Flex then dividing their mini-content into flex also to get the the column style then added the color as linear for left box as i followed the procdeure of the right box then this was the result 
 ### Built with
 
 - HTML5 
 - CSS 3
 - Flexbox
-- CSS Grid
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ### Continued development
