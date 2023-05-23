@@ -45,13 +45,13 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Solution URL: [Git Hub Repo Link](https://github.com/Amraboelmagdhussien/results-summary-component-main)
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site URL Using Github Pages](https://amraboelmagdhussien.github.io/results-summary-component-main/)
 
 ## My process
-
+I used HTML to create 1 Big box then divided this boxes into two then 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 
 - CSS 3
 - Flexbox
 - CSS Grid
