@@ -1,11 +1,17 @@
-@media only screen and (max-width: 844px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
     [class*="container"] {
     display: flex;
     flex-direction: column;
     }
 }
-
+@media screen
+    and (max-device-width: 640px) {
+        [class*="container"] {
+            display: flex;
+            flex-direction: column;
+            }
+}
 body, html {
     
     height: 100%;
