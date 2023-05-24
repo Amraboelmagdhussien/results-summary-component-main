@@ -12,7 +12,7 @@
             flex-direction: column;
             }
 }
-body, html {
+body, html,section {
     
     height: 100%;
 }
@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
 }
 .container {
 display: flex;
@@ -29,13 +29,14 @@ min-height: 100px;
 justify-content: center;
 border-radius: 25px;
 background-color: white;
-box-shadow: 5px 5px 15px #86868656;
+box-shadow: 5px 5px 20px hsl(221, 100%, 96%);
+margin-top: 85px;
 /* align-items: center; */
 }
 
 
 
-.box-1 {
+.final-score {
     
     display: flex;
     flex-direction: column;
@@ -88,13 +89,13 @@ box-shadow: 5px 5px 15px #86868656;
     font-family: 'Hanken Grotesk', sans-serif;
 }
 
-.description .score1 {
-    max-width: 200px; 
+.description .score-compare {
+    max-width: 218px; 
     text-align: center; 
     margin: 0 40px;
 }
 
-.box-2 {
+.score-breakdown {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +107,7 @@ box-shadow: 5px 5px 15px #86868656;
     
 }
 
-.box-2 > p {
+.score-breakdown > h1 {
     align-self: flex-start;
     font-family: 'Hanken Grotesk', sans-serif;
     font-weight: bolder;
@@ -123,6 +124,7 @@ box-shadow: 5px 5px 15px #86868656;
     display: flex;
     margin: 0;
     gap: 1rem;
+    font-size: 16px;
 }
 
 .number {
@@ -151,7 +153,7 @@ color: hsla(260, 3%, 21%, 0.507);
     border-radius: 14px;
     width: 100%;
 }
-.row-2 p {
+.row-2 h1 {
     font-family: 'Hanken Grotesk', sans-serif;
     color: hsl(39, 100%, 56%);
     font-weight: bold;
@@ -163,7 +165,7 @@ color: hsla(260, 3%, 21%, 0.507);
     width: 100%;
 }
 
-.row-3 p {
+.row-3 h1 {
     font-family: 'Hanken Grotesk', sans-serif;
     color: hsl(166, 100%, 37%);
     font-weight: bold;
@@ -175,7 +177,7 @@ color: hsla(260, 3%, 21%, 0.507);
     width: 100%;
 }
 
-.row-4 p {
+.row-4 h1 {
     font-family: 'Hanken Grotesk', sans-serif;
     color: hsl(234, 85%, 45%);
     font-weight: bold;
